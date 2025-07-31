@@ -300,6 +300,129 @@ nav a:hover::after {
         max-width: 98vw;
     }
 }
+@media (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+        gap: 18px;
+        align-items: flex-start;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .logo {
+        font-size: 1rem;
+        margin-bottom: 6px;
+    }
+    nav ul {
+        gap: 14px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    nav ul li {
+        margin-bottom: 0;
+    }
+    .hero {
+        flex-direction: column;
+        gap: 18px;
+        padding-top: 24px;
+        align-items: flex-start;
+    }
+    .hero-content {
+        padding-top: 0;
+        width: 100%;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    .hero p {
+        font-size: 0.98rem;
+        margin-bottom: 18px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: stretch;
+    }
+    .hero-buttons .primary,
+    .hero-buttons .secondary,
+    .hero-buttons a.primary,
+    .hero-buttons a.secondary {
+        width: 100%;
+        font-size: 1rem;
+        padding: 12px 0;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+        display: block;
+    }
+    .hero-image {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .hero-image img {
+        width: 140px;
+        border-radius: 0 0 40px 0;
+    }
+}
+@media (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .logo {
+        font-size: 1rem;
+    }
+    nav ul {
+        gap: 18px;
+    }
+    .hero {
+        flex-direction: column;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    .hero-content {
+        padding-top: 0;
+    }
+    .hero-image img {
+        width: 180px;
+        border-radius: 0 0 60px 0;
+    }
+    .projects-grid {
+        gap: 18px;
+    }
+    .project-card {
+        min-height: 260px;
+        padding: 0;
+    }
+    .project-info {
+        padding: 14px;
+    }
+    .project-info h3 {
+        font-size: 1rem;
+    }
+    .project-info p {
+        font-size: 0.92rem;
+    }
+    .footer-social {
+        gap: 12px;
+    }
+    .footer-social a {
+        width: 36px;
+        height: 36px;
+    }
+    .footer-social img {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-contact {
+        font-size: 0.95rem;
+        flex-direction: column;
+        gap: 4px;
+    }
+}
 
 /* Modal Styles */
 .modal-overlay {
